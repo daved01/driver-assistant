@@ -1,0 +1,3 @@
+/Users/David/Repositories/driver-assistant/build/CMakeFiles/rebuild_cache.dir
+/Users/David/Repositories/driver-assistant/build/CMakeFiles/edit_cache.dir
+/Users/David/Repositories/driver-assistant/build/CMakeFiles/driver-assistant.dir

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/David/Repositories/driver-assistant/build",
+  "command": "/usr/bin/clang++  -isystem /Users/David/opencv/install/include/opencv4 -isystem /Users/David/libtorch/include -isystem /Users/David/libtorch/include/torch/csrc/api/include -isystem /usr/local/Cellar/python@3.9/3.9.1_4/Frameworks/Python.framework/Versions/3.9/include/python3.9 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=c++14 -std=gnu++14 -o CMakeFiles/driver-assistant.dir/main.cpp.o -c /Users/David/Repositories/driver-assistant/main.cpp",
+  "file": "/Users/David/Repositories/driver-assistant/main.cpp"
+}
+]
