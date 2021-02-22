@@ -33,5 +33,6 @@
 
 # Other paths
 ./build/
+./dev/
 CMakeLists.txt
 
