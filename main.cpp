@@ -7,9 +7,11 @@
 # include<string>
 # include<memory>
 # include<torch/script.h>
+# include<chrono>
 
 using namespace cv;
 using namespace std;
+using namespace std::chrono;
 
 
 // Displays statistics in the video
@@ -59,6 +61,8 @@ int main()
     
     for (;;)
     {
+        auto start = high_resolution_clock::now();
+
         // Wait for a new frame from camera and store it into 'frame'
         cap.read(frame);
         if (frame.empty()) {
@@ -83,6 +87,10 @@ int main()
         imshow("Camera Demo", frame);
         if (waitKey(5) >= 0)
             break;
+        
+        auto stop = high_resolution_clock::now();
+        auto duration = duration_cast<microseconds>(stop - start);
+        cout << "Duration: " << duration.count() << " micro seconds" <<endl;
     }
 
     return 0;
